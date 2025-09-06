@@ -1,2 +1,7 @@
+controladores\ContactoServlet.class
+controladores\ServletPrincipal.class
+controladores\LoginServlet.class
+beans\Contacto.class
+controladores\LogoutServlet.class
 com\mycompany\proydesweb\JakartaRestConfiguration.class
 com\mycompany\proydesweb\resources\JakartaEE8Resource.class
