@@ -18,7 +18,7 @@
 <!-- Sección Hero -->
 <div class="hero-section">
     <div class="hero-content">
-        <h1>Bienvenido al Sistema Web</h1>
+        <h1>GLOBAL CARS</h1>
         <p class="hero-subtitle">Plataforma integral de gestión con tecnología moderna y segura</p>
         
         <!-- Verificar si ya está logueado -->

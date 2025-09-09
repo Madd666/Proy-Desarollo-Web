@@ -294,8 +294,8 @@
     <header class="main-header">
         <div class="header-container">
             <div class="logo-section">
-                <h1>Sistema Web</h1>
-                <p>Gestión integral de procesos</p>
+                <h1>GLOBAL CARS</h1>
+                <p>Simulación de financiamiento Toyota</p>
             </div>
             
             <div class="user-info">
