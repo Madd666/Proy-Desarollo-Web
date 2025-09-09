@@ -9,84 +9,86 @@
     </main> <!-- Cierra main-container -->
     
     <footer class="main-footer">
-        <div class="footer-container">
-            <div class="footer-grid">
-                <!-- Sección de información de la empresa -->
-                <div class="footer-section">
-                    <h4>Sistema Web</h4>
-                    <p>Plataforma integral para gestión de procesos empresariales con tecnología moderna y segura.</p>
-                    <div class="footer-social">
-                        <a href="#" title="Facebook">📘</a>
-                        <a href="#" title="Twitter">🐦</a>
-                        <a href="#" title="LinkedIn">💼</a>
-                        <a href="#" title="Email">📧</a>
-                    </div>
-                </div>
-                
-                <!-- Sección de enlaces rápidos -->
-                <div class="footer-section">
-                    <h4>Enlaces Rápidos</h4>
-                    <ul class="footer-links">
-                        <li><a href="index.jsp">Inicio</a></li>
-                        <% if (usuario != null) { %>
-                            <li><a href="dashboard.jsp">Dashboard</a></li>
-                        <% } %>
-                        <li><a href="preguntas-frecuentes.jsp">Preguntas Frecuentes</a></li>
-                        <li><a href="contactenos.jsp">Contáctenos</a></li>
-                    </ul>
-                </div>
-                
-                <!-- Sección de contacto -->
-                <div class="footer-section">
-                    <h4>Información de Contacto</h4>
-                    <div class="footer-contact">
-                        <p><strong>Dirección:</strong><br>
-                        Av. Universitaria 1801<br>
-                        San Miguel, Lima - Perú</p>
-                        
-                        <p><strong>Teléfono:</strong><br>
-                        (01) 626-2000</p>
-                        
-                        <p><strong>Email:</strong><br>
-                        info@empresa.com</p>
-                    </div>
-                </div>
-                
-                <!-- Sección de horarios -->
-                <div class="footer-section">
-                    <h4>Horario de Atención</h4>
-                    <div class="footer-schedule">
-                        <p><strong>Lunes a Viernes:</strong><br>
-                        8:00 AM - 6:00 PM</p>
-                        
-                        <p><strong>Sábados:</strong><br>
-                        9:00 AM - 1:00 PM</p>
-                        
-                        <p><strong>Domingos:</strong><br>
-                        Cerrado</p>
-                    </div>
+    <div class="footer-container">
+        <div class="footer-grid">
+            <!-- Sección de información de la empresa -->
+            <div class="footer-section">
+                <h4>Sistema Web</h4>
+                <p>Plataforma integral para gestión de procesos empresariales con tecnología moderna y segura.</p>
+                <div class="footer-social">
+                    <a href="#" title="Facebook">📘</a>
+                    <a href="#" title="Twitter">🐦</a>
+                    <a href="#" title="LinkedIn">💼</a>
+                    <a href="#" title="Email">📧</a>
                 </div>
             </div>
             
-            <!-- Línea de separación -->
-            <div class="footer-divider"></div>
+            <!-- Sección de enlaces rápidos -->
+            <div class="footer-section">
+                <h4>Enlaces Rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="index.jsp">Inicio</a></li>
+                    <% if (usuario != null) { %>
+                        <li><a href="dashboard.jsp">Dashboard</a></li>
+                    <% } %>
+                    <li><a href="preguntas-frecuentes.jsp">Preguntas Frecuentes</a></li>
+                    <li><a href="contactenos.jsp">Contáctenos</a></li>
+                    <li><a href="formulario-sugerencias.jsp">Enviar Sugerencias</a></li> 
+                    <li><a href="formulario-libreclamaciones.jsp">Libro de reclamaciones</a></li>  
+                </ul>
+            </div>
             
-            <!-- Copyright y información legal -->
-            <div class="footer-bottom">
-                <div class="footer-copyright">
-                    <p>&copy; <%= java.time.Year.now().getValue() %> Sistema Web. Todos los derechos reservados.</p>
-                    <p>Desarrollado con tecnología Java - JSP | Versión 1.0</p>
+            <!-- Sección de contacto -->
+            <div class="footer-section">
+                <h4>Información de Contacto</h4>
+                <div class="footer-contact">
+                    <p><strong>Dirección:</strong><br>
+                    Av. Universitaria 1801<br>
+                    San Miguel, Lima - Perú</p>
+                    
+                    <p><strong>Teléfono:</strong><br>
+                    (01) 626-2000</p>
+                    
+                    <p><strong>Email:</strong><br>
+                    info@empresa.com</p>
                 </div>
-                
-                <div class="footer-legal">
-                    <a href="#" onclick="alert('Política de Privacidad - Próximamente')">Política de Privacidad</a>
-                    <span class="separator">|</span>
-                    <a href="#" onclick="alert('Términos y Condiciones - Próximamente')">Términos y Condiciones</a>
-                    <span class="separator">|</span>
-                    <a href="contactenos.jsp">Soporte</a>
+            </div>
+            
+            <!-- Sección de horarios -->
+            <div class="footer-section">
+                <h4>Horario de Atención</h4>
+                <div class="footer-schedule">
+                    <p><strong>Lunes a Viernes:</strong><br>
+                    8:00 AM - 6:00 PM</p>
+                    
+                    <p><strong>Sábados:</strong><br>
+                    9:00 AM - 1:00 PM</p>
+                    
+                    <p><strong>Domingos:</strong><br>
+                    Cerrado</p>
                 </div>
             </div>
         </div>
+        
+        <!-- Línea de separación -->
+        <div class="footer-divider"></div>
+        
+        <!-- Copyright y información legal -->
+        <div class="footer-bottom">
+            <div class="footer-copyright">
+                <p>&copy; <%= java.time.Year.now().getValue() %> Sistema Web. Todos los derechos reservados.</p>
+                <p>Desarrollado con tecnología Java - JSP | Versión 1.0</p>
+            </div>
+            
+            <div class="footer-legal">
+                <a href="#" onclick="alert('Política de Privacidad - Próximamente')">Política de Privacidad</a>
+                <span class="separator">|</span>
+                <a href="#" onclick="alert('Términos y Condiciones - Próximamente')">Términos y Condiciones</a>
+                <span class="separator">|</span>
+                <a href="contactenos.jsp">Soporte</a>
+            </div>
+        </div>
+    </div>
     </footer>
     
     <style>

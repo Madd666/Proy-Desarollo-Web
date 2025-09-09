@@ -1,4 +1,4 @@
-%-- 
+<%-- 
     Document   : footer.jsp
     Created on : Componente modular de pie de página
     Author     : LAB-USR-LNORTE
